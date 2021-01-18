@@ -1,0 +1,1 @@
+function roll(t){let f=function(n=1,d){let o=0;for(let i=n||1;i>0;i--)o+=Math.floor(Math.random()*d+1);return o;};return eval(t.replace(/(\d*)d(\d+)/g,"f(0$1,$2)"))}
